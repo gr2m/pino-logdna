@@ -1,0 +1,29 @@
+{
+  "name": "pino-logdna",
+  "version": "1.0.4",
+  "description": "This module provides a \"transport\" for pino that forwards messages to the LogDNA log service through official LogDna NPM module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "pino-logdna": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalmio/pino-logdna.git"
+  },
+  "author": "Maciej Ziehlke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digitalmio/pino-logdna/issues"
+  },
+  "homepage": "https://github.com/digitalmio/pino-logdna#readme",
+  "dependencies": {
+    "logdna": "^2.0.4",
+    "pump": "^3.0.0",
+    "split2": "^3.0.0",
+    "through2": "^2.0.3",
+    "yargs": "^12.0.2"
+  }
+}
