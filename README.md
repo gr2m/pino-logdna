@@ -4,7 +4,7 @@ This module provides a "transport" for pino that forwards messages to the LogDNA
 
 #### Usage:
 
-`node yourfile.js | pino-logdna --key yourPinoKey`
+`node yourfile.js | pino-logdna --key yourLogDnaKey`
 
 Alternatively if you don't want to provide key directly, set up the `LOGDNA_KEY` environment variable key.
 
